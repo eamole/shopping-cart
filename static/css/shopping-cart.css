@@ -1,0 +1,30 @@
+.cart-item-container {    
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background-color: lightgrey;
+    width: 150px;
+    margin-bottom: 5px;
+    font-family: Rubik;
+}
+.cart-item-image img {
+    width: 50px;
+}
+
+.cart-item-qty-dec, 
+.cart-item-qty, 
+.cart-item-qty-inc {
+    display:inline-block;
+} 
+
+.cart-item-qty-dec, 
+.cart-item-qty-inc {
+    border: 1px solid darkgray;
+    border-radius: 50px;
+} 
+
+
+.cart-item-text {
+    color: white;
+    background-color: darkgray;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+    /* create a 2 col layout */
+    #app.container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* make 2nd column float to right */
+    }
+    #products-container {
+        height: 100%;
+        border: 1px solid red;  /* just to see it */
+    }
+    #shopping-cart-container {
+        height:100%;
+        border: 1px solid red;  /* just to see it */
+        
+    }
+
+    .money::before {
+        content: "€ "
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
