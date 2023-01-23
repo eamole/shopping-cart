@@ -6,11 +6,11 @@
     }
     #products-container {
         height: 100%;
-        border: 1px solid red;  /* just to see it */
+        border: 1px solid darkgray;  /* just to see it */
     }
     #shopping-cart-container {
         height:100%;
-        border: 1px solid red;  /* just to see it */
+        border: 1px solid darkgray;  /* just to see it */
         
     }
 
@@ -21,3 +21,16 @@
     .clickable {
         cursor: pointer;
     }
+
+    /* make any element look like a button */
+    .btn {
+        border: 1px solid darkgray;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    .hidden {
+        display:none;
+    }
+    

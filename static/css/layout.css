@@ -1,7 +1,7 @@
 /* For mobile phones: mobile first strategy - all cols 100% */
-[class*="col-"] {
+/* [class*="col-"] {
     width: 100%;
-}
+} */
 
 /* common layout breakpoints - from w3schools */
 
